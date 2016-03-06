@@ -1,0 +1,43 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+}
+
+.list {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #D3D3D3;
+}
+
+.content-card-list__content-card--selected {
+  display: inline-block;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #98fb98;
+}
+
+.content-card-list__content-card {
+  display: inline-block;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #333333;
+}
+
+.content-card-list__content-card img {
+  height: 256px;
+}
+
+.content-card-list__content-card--selected img {
+  height: 256px;
+}
